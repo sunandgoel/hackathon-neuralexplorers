@@ -1,0 +1,68 @@
+/* InputForm.css */
+
+/* Style for the form */
+.input-form {
+    width: 600px; /* Increase width of the main container */
+    margin: auto auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for form groups */
+  .input-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input and select elements */
+  .input-form input,
+  .input-form select {
+    width: 100%; /* Full width of the container */
+    padding: 12px 16px; /* Increased padding */
+    font-size: 16px; /* Larger text */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width/height calculations */
+  }
+  
+  /* Style for submit button */
+  .input-form .submit-button {
+    width: 100%; /* Full width */
+    padding: 12px 16px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .input-form .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the download button */
+  .input-form .download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .input-form .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ToastContainer */
+  .Toastify__toast-container {
+    z-index: 9999; /* Ensure toast notifications are on top */
+  }
+  
